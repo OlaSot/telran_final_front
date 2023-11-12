@@ -1,5 +1,7 @@
 import React from "react";
 import s from "./index.module.css";
+import whatsapp from './whatsapp.png'
+import insta from './insta.png'
 
 export default function Footer() {
   return (
@@ -17,13 +19,13 @@ export default function Footer() {
           <div className={s.social_media_content}>
             <div className={s.content_cont}>
               <a href="https://www.instagram.com/tel_ran/">
-                <img src="/media/insta.png" alt="" />
+                <img src={insta} alt="" />
               </a>
               <p>Instagram</p>
             </div>
             <div className={s.content_cont}>
               <a href="https://api.whatsapp.com/send?phone=%2B493083797477&app=facebook&entry_point=page_cta&fbclid=IwAR3eUU2FYqyUPJNi23MAOH_es4Bg4zLhFCDPPH1volXz6W4XI9lfqXrgoBc">
-                <img src="/media/whatsapp.png" alt="" />
+                <img src={whatsapp} alt="" />
               </a>
               <p>WhatsApp</p>
             </div>

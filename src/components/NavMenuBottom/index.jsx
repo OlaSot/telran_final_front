@@ -1,6 +1,10 @@
 import React from "react";
 import s from "./index.module.css";
 import { Link } from "react-router-dom";
+import mainPageIcon from './mainPageicon.svg'
+import shopBag from './shop_bag.svg'
+import sale from './sale.svg'
+import cart from './cart.png'
 
 export default function NavMenuBottom() {
   return (
@@ -8,16 +12,16 @@ export default function NavMenuBottom() {
       <div className={s.navMenu}>
       <div className={s.links}>
         <Link to="/">
-          <img src="/media/mainPageicon.svg" alt="" className={s.main} />
+          <img src={mainPageIcon} alt="" className={s.main} />
         </Link>
         <Link to="/products">
-          <img src="/media/shop_bag.svg" alt="" className={s.main} />
+          <img src={shopBag} alt="" className={s.main} />
         </Link>
         <Link to="/sales">
-          <img src="/media/sale.svg" alt="" className={s.main} />
+          <img src={sale} alt="" className={s.main} />
         </Link>
         <Link to="/cart">
-          <img src="/mainPage/cart.png" alt="" className={s.main} />
+          <img src={cart} alt="" className={s.main} />
         </Link>
       </div>
       </div>

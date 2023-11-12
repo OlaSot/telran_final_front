@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import s from "./index.module.css";
 import logo from './logo.png'
 import Btn from "../Btn";
-import cart from ''
+import cart from './cart.png'
 
 export default function NavMenu() {
   return (
@@ -22,7 +22,7 @@ export default function NavMenu() {
           <Link to="/sales">All sales</Link>
         </div>
         <Link to="/cart">
-          <img className={s.cart_img} src="/Mainpage/cart.png" alt="shop_bag" />
+          <img className={s.cart_img} src={cart} alt="shop_bag" />
         </Link>
       </div>
     </div>

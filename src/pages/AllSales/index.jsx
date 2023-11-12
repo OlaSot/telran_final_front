@@ -5,6 +5,8 @@ import ProductsContainer from "../../components/ProductsContainer";
 import s from "./index.module.css";
 import FilterForm from "../../components/FilterForms/FilterForm";
 import SortForm from "../../components/FilterForms/SortForm";
+import filter from './filter.svg'
+
 
 export default function AllSales({ handleFilterClick, isFilterVisible }) {
   const allProducts = useSelector((state) => state.allProducts);
@@ -23,7 +25,7 @@ export default function AllSales({ handleFilterClick, isFilterVisible }) {
       <div className={s.title_block}>
         <h1>Sale</h1>
         <img
-          src="/media/filter.svg"
+          src={filter}
           alt="filter"
           onClick={handleFilterClick}
           className={s.filter}
