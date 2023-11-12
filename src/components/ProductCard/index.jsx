@@ -34,7 +34,7 @@ export default function ProductCard({
             key={id}
             className={s.img}
             style={{
-              backgroundImage: `url(http://localhost:3333${image})`,
+              backgroundImage: `url(https://telran-final-server.onrender.com/${image})`,
               backgroundSize: "cover",
             }}
           >

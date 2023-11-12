@@ -19,7 +19,7 @@ export default function Category({ title, image, id }) {
           key={id}
           className={s.img}
           style={{
-            backgroundImage: `url(https://telran-final-server.onrender.com${image})`,
+            backgroundImage: `url(https://telran-final-server.onrender.com/${image})`,
             backgroundSize: "cover",
           }}
         >
