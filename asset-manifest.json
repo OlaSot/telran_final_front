@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/telran_final_front/static/css/main.f9a01278.css",
-    "main.js": "/telran_final_front/static/js/main.3e702121.js",
+    "main.css": "/telran_final_front/static/css/main.89ea6137.css",
+    "main.js": "/telran_final_front/static/js/main.aae3d53e.js",
     "static/media/Mesa de trabajo 1 copy.png": "/telran_final_front/static/media/Mesa de trabajo 1 copy.df6a3d1a55a6ac31fc38.png",
     "static/media/darkBG.png": "/telran_final_front/static/media/darkBG.dee237991731475a5f5c.png",
     "static/media/error.png": "/telran_final_front/static/media/error.2377b58d882efe65eb46.png",
@@ -15,11 +15,11 @@
     "static/media/shop_bag.svg": "/telran_final_front/static/media/shop_bag.645d6b8f0dd122ebc8f932101408a024.svg",
     "static/media/sale.svg": "/telran_final_front/static/media/sale.26e8a13ffd5e230d59b6940aa11264ff.svg",
     "index.html": "/telran_final_front/index.html",
-    "main.f9a01278.css.map": "/telran_final_front/static/css/main.f9a01278.css.map",
-    "main.3e702121.js.map": "/telran_final_front/static/js/main.3e702121.js.map"
+    "main.89ea6137.css.map": "/telran_final_front/static/css/main.89ea6137.css.map",
+    "main.aae3d53e.js.map": "/telran_final_front/static/js/main.aae3d53e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9a01278.css",
-    "static/js/main.3e702121.js"
+    "static/css/main.89ea6137.css",
+    "static/js/main.aae3d53e.js"
   ]
 }
