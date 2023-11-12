@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import s from "./index.module.css";
+import logo from '/logo.png'
 
 import Btn from "../Btn";
 
@@ -8,7 +9,7 @@ export default function NavMenu() {
   return (
     <div className={`${s.main_container} `}>
       <Link to="/">
-        <img src="/mainpage/logo.png" alt="logo" className={s.logo} />
+        <img src={logo} alt="logo" className={s.logo} />
       </Link>
       <div className={s.container}>
         <Link to="/categories">
