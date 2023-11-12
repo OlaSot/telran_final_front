@@ -7,6 +7,7 @@ import ProductsContainer from "../../components/ProductsContainer";
 import FilterForm from "../../components/FilterForms/FilterForm";
 import DiscountForm from "../../components/FilterForms/DiscountForm";
 import SortForm from "../../components/FilterForms/SortForm";
+import filter from './filter.svg'
 
 export default function ProductsByCategoriesPage({handleFilterClick, isFilterVisible}) {
   const { id } = useParams();
@@ -32,7 +33,7 @@ export default function ProductsByCategoriesPage({handleFilterClick, isFilterVis
       <div className={s.title_block}>
         <h1>{category_title?.title}</h1>
         <img
-          src="/media/filter.svg"
+          src={filter}
           alt=""
           onClick={handleFilterClick}
           className={s.filter}
