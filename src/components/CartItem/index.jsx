@@ -20,7 +20,7 @@ export default function CartItem({
   return (
     <div className={s.container}>
       <div className={s.left_side}>
-        <img src={`http://localhost:3333${image}`} alt="" className={s.img} />
+        <img src={`https://telran-final-server.onrender.com${image}`} alt="" className={s.img} />
         <div className={s.text_block}>
           <p>{title}</p>
         </div>

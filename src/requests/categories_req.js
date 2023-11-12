@@ -1,7 +1,7 @@
 import { loadAllCategories } from "../store/reducers/categoriesReducer"
 
 export const getAllCategories = (dispatch) => {
-    fetch('http://localhost:3333/categories/all')
+    fetch('https://telran-final-server.onrender.com/categories/all')
     .then(res => res.json())
     .then(json => dispatch(loadAllCategories(json)))
 }

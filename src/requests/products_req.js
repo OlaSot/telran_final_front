@@ -6,7 +6,7 @@ import { loadOneProductAction } from "../store/reducers/singleProductReducer"
 
 export const getProductsByCategory = (id) => {
     return dispatch => {
-        fetch(`http://localhost:3333/categories/${id}`)
+        fetch(`https://telran-final-server.onrender.com/categories/${id}`)
         .then(res => res.json())
         .then(json => {
             console.log(json);
@@ -15,7 +15,7 @@ export const getProductsByCategory = (id) => {
 }
 
 export const getAllProducts = dispatch => {
-    fetch('http://localhost:3333/products/all')
+    fetch('https://telran-final-server.onrender.com/products/all')
     .then(res => res.json())
     .then(json => { dispatch(loadAllProductsAction(json));
     })
@@ -23,7 +23,7 @@ export const getAllProducts = dispatch => {
 
 export const getOneProduct = (id) => {
     return dispatch => {
-        fetch(`http://localhost:3333/products/${id}`)
+        fetch(`https://telran-final-server.onrender.com/products/${id}`)
         .then(res => res.json())
         .then(json => {
             console.log(json);
@@ -37,7 +37,7 @@ export const getOneProduct = (id) => {
 
     
 export  function getSale(obj){
-        fetch('http://localhost:3333/sale/send', {
+        fetch('https://telran-final-server.onrender.com/sale/send', {
             method: 'POST',
             body: JSON.stringify(obj),
             headers: {
@@ -54,7 +54,7 @@ export  function getSale(obj){
 
 
     export  function sendOrder(obj){
-        fetch('http://localhost:3333/order/send', {
+        fetch('https://telran-final-server.onrender.com/order/send', {
             method: 'POST',
             body: JSON.stringify(obj),
             headers: {

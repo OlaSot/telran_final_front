@@ -61,7 +61,7 @@
 .disc_img {
     width: 320px;
     height: 280px;
-    background-image: url('/../front/public/media/bridge.png');
+    /* background-image: url('/../front/public/media/bridge.png'); */
     border-radius: 20px;
     margin-bottom: 30px;
 }
