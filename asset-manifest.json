@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/telran_final_front/static/css/main.f9a01278.css",
+    "main.js": "/telran_final_front/static/js/main.39dffe7f.js",
+    "static/media/Mesa de trabajo 1 copy.png": "/telran_final_front/static/media/Mesa de trabajo 1 copy.df6a3d1a55a6ac31fc38.png",
+    "static/media/darkBG.png": "/telran_final_front/static/media/darkBG.dee237991731475a5f5c.png",
+    "index.html": "/telran_final_front/index.html",
+    "main.f9a01278.css.map": "/telran_final_front/static/css/main.f9a01278.css.map",
+    "main.39dffe7f.js.map": "/telran_final_front/static/js/main.39dffe7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9a01278.css",
+    "static/js/main.39dffe7f.js"
+  ]
+}
