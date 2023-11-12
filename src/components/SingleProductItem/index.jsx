@@ -46,7 +46,7 @@ export default function SingleProductItem({ single_product }) {
             </div>
           )}
           <div className={s.button} onClick={addToCart}>
-            <img src="button" alt="" className={s.button_img} />
+            <img src={button} alt="" className={s.button_img} />
             <p>To cart</p>
           </div>
           <div className={s.description}>
