@@ -1,16 +1,25 @@
 {
   "files": {
     "main.css": "/telran_final_front/static/css/main.f9a01278.css",
-    "main.js": "/telran_final_front/static/js/main.78705c85.js",
+    "main.js": "/telran_final_front/static/js/main.3e702121.js",
     "static/media/Mesa de trabajo 1 copy.png": "/telran_final_front/static/media/Mesa de trabajo 1 copy.df6a3d1a55a6ac31fc38.png",
     "static/media/darkBG.png": "/telran_final_front/static/media/darkBG.dee237991731475a5f5c.png",
+    "static/media/error.png": "/telran_final_front/static/media/error.2377b58d882efe65eb46.png",
+    "static/media/5_percent.png": "/telran_final_front/static/media/5_percent.94808081faaf8adce51e.png",
+    "static/media/sale_block.png": "/telran_final_front/static/media/sale_block.8ed679809b25dbb1b049.png",
+    "static/media/plant.png": "/telran_final_front/static/media/plant.6364fe58c2b9d40e00ba.png",
     "static/media/logo.png": "/telran_final_front/static/media/logo.f5f66c00cc46bff6cb7e.png",
+    "static/media/trash_icon.svg": "/telran_final_front/static/media/trash_icon.182feb16148415cd3bc579ef49fb1837.svg",
+    "static/media/filter.svg": "/telran_final_front/static/media/filter.0d38e61e18298fb6f23bbeab8bb44579.svg",
+    "static/media/mainPageicon.svg": "/telran_final_front/static/media/mainPageicon.900b48a2bd208b9bbbd00947eb3e92e0.svg",
+    "static/media/shop_bag.svg": "/telran_final_front/static/media/shop_bag.645d6b8f0dd122ebc8f932101408a024.svg",
+    "static/media/sale.svg": "/telran_final_front/static/media/sale.26e8a13ffd5e230d59b6940aa11264ff.svg",
     "index.html": "/telran_final_front/index.html",
     "main.f9a01278.css.map": "/telran_final_front/static/css/main.f9a01278.css.map",
-    "main.78705c85.js.map": "/telran_final_front/static/js/main.78705c85.js.map"
+    "main.3e702121.js.map": "/telran_final_front/static/js/main.3e702121.js.map"
   },
   "entrypoints": [
     "static/css/main.f9a01278.css",
-    "static/js/main.78705c85.js"
+    "static/js/main.3e702121.js"
   ]
 }
